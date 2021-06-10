@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - './statamic:/var/www/statamic'
+      - './statamic.conf:/etc/nginx/conf.d/statamic.conf:ro'
+    ports:
+      - "8000:8000"
+  fpm:
+    build:
+      context: ./php-fpm
+      dockerfile: ./Dockerfile
+    volumes:
+      - './statamic:/var/www/statamic'
+      - './php.ini:/usr/local/etc/php/php.ini'

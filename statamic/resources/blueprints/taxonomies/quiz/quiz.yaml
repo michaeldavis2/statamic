@@ -1,0 +1,60 @@
+title: Quiz
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: replicator
+        field:
+          collapse: false
+          sets:
+            question_and_answer:
+              display: 'Question and Answer'
+              fields:
+                -
+                  handle: text
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Text
+                    type: text
+                    icon: text
+                    listable: hidden
+                -
+                  handle: array
+                  field:
+                    mode: dynamic
+                    display: Array
+                    type: array
+                    icon: array
+                    listable: hidden
+                -
+                  handle: correct_answer
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Correct Answer'
+                    type: text
+                    icon: text
+                    listable: hidden
+          display: Questions
+          type: replicator
+          icon: replicator
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          validate:
+            - required

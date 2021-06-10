@@ -1,0 +1,16 @@
+title: Deployment
+fields:
+  -
+    handle: stage
+    field:
+      display: Stage
+      type: toggle
+      icon: toggle
+      listable: hidden
+  -
+    handle: production
+    field:
+      display: Production
+      type: toggle
+      icon: toggle
+      listable: hidden

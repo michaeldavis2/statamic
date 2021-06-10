@@ -1,0 +1,26 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: hero_banner
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: 'Hero banner'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: basket_id
+        field:
+          display: 'basket Id'
+          type: integer
+          icon: integer
+          listable: hidden
+  deployment:
+    display: Deployment
+    fields:
+      -
+        import: deployment

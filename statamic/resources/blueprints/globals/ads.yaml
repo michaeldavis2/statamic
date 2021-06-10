@@ -1,0 +1,31 @@
+sections:
+  test:
+    display: 'Ad Managment'
+    fields:
+      -
+        handle: hide_ads_on_sky_news
+        field:
+          display: 'Hide All Ads'
+          type: toggle
+          icon: toggle
+          listable: hidden
+      -
+        handle: hide_outbrain
+        field:
+          display: 'Hide Outbrain'
+          type: toggle
+          icon: toggle
+          listable: hidden
+      -
+        handle: ads_txt
+        field:
+          antlers: false
+          display: Ads.txt
+          type: textarea
+          icon: textarea
+          listable: hidden
+  deployment:
+    display: Deployment
+    fields:
+      -
+        import: deployment

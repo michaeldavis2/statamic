@@ -1,0 +1,68 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: replicator
+        field:
+          collapse: false
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  handle: id
+                  field:
+                    hidden: false
+                    readonly: true
+                    display: ID
+                    type: uuid
+                    icon: code
+                    listable: hidden
+                -
+                  handle: assets
+                  field:
+                    mode: grid
+                    restrict: false
+                    allow_uploads: true
+                    display: Assets
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                -
+                  handle: text
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Text
+                    type: text
+                    icon: text
+                    listable: hidden
+                -
+                  handle: number
+                  field:
+                    display: Number
+                    type: integer
+                    icon: integer
+                    listable: hidden
+                -
+                  handle: color
+                  field:
+                    theme: classic
+                    lock_opacity: false
+                    default_color_mode: HEXA
+                    color_modes:
+                      - HEXA
+                    display: Color
+                    type: color
+                    icon: color
+                    listable: hidden
+          display: Replicator
+          type: replicator
+          icon: replicator
+          listable: hidden
+  deployment:
+    display: Deployment
+    fields:
+      -
+        import: deployment

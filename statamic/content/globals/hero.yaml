@@ -1,0 +1,7 @@
+title: 'Hero Banner'
+data:
+  hero_banner:
+    - hero.png
+  basket_id: 3412312
+  stage: false
+  production: false

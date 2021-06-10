@@ -1,0 +1,59 @@
+title: FunQuiz
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: questions
+        field:
+          collapse: false
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  handle: question
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Question
+                    type: text
+                    icon: text
+                    listable: hidden
+                -
+                  handle: answers
+                  field:
+                    mode: dynamic
+                    display: Answers
+                    type: array
+                    icon: array
+                    listable: hidden
+          display: Questions
+          type: replicator
+          icon: replicator
+          listable: hidden
+      -
+        handle: checkboxes
+        field:
+          inline: false
+          display: Checkboxes
+          type: checkboxes
+          icon: checkboxes
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          validate:
+            - required

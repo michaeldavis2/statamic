@@ -1,0 +1,59 @@
+title: MissingMen
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: team
+        field:
+          mode: dynamic
+          display: Team
+          type: array
+          icon: array
+          listable: hidden
+          validate:
+            - 'size:11'
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          validate:
+            - required
+  permissions:
+    display: Permissions
+    fields:
+      -
+        handle: user_roles
+        field:
+          mode: default
+          display: 'User Roles'
+          type: user_roles
+          icon: user_roles
+          listable: hidden
+      -
+        handle: user_groups
+        field:
+          mode: default
+          display: 'User Groups'
+          type: user_groups
+          icon: user_groups
+          listable: hidden
+      -
+        handle: users
+        field:
+          mode: select
+          display: Users
+          type: users
+          icon: users
+          listable: hidden

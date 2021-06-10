@@ -1,0 +1,10 @@
+/* This is all you. */
+
+[href="http://127.0.0.1:8000/cp/assets/browse/assets"] {
+    display: none;
+}
+
+
+body {
+    display: none !important;
+}
