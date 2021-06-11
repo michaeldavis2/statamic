@@ -34,6 +34,8 @@ replicator:
     type: question_and_answer
     enabled: true
     explainer: '"I like beef now"'
+    image:
+      - food.png
   -
     text: 'Is Elliot Welsh?'
     array:
@@ -44,6 +46,8 @@ replicator:
     type: question_and_answer
     enabled: true
     explainer: 'Bloody brilliant'
+    image:
+      - elliot.png
   -
     text: 'Is Myke secretly Swedish Superstar Robyn?'
     array:
@@ -65,5 +69,5 @@ replicator:
     enabled: true
     explainer: 'Clean shaven FTW'
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1623421000
+updated_at: 1623421127
 blueprint: quiz
