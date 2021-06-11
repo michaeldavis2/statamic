@@ -44,3 +44,11 @@ sections:
           max_items: 1
           listable: false
           localizable: true
+      -
+        handle: quiz
+        field:
+          type: terms
+          taxonomies:
+            - quiz
+          display: Quiz
+          mode: select
