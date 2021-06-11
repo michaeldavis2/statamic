@@ -1,0 +1,86 @@
+title: 'Missing Names'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: content
+        field:
+          type: markdown
+          localizable: true
+      -
+        handle: subtitle
+        field:
+          input_type: text
+          antlers: false
+          display: Subtitle
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: description
+        field:
+          input_type: text
+          antlers: false
+          display: Description
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: formation
+        field:
+          options:
+            352: 3-5-2
+            433: 4-3-3
+            442: 4-4-2
+            4411: 4-4-1-1
+            41212: 4-1-2-1-2
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Formation
+          type: select
+          icon: select
+          listable: hidden
+      -
+        handle: participants
+        field:
+          collapse: false
+          max_sets: 11
+          sets:
+            participant:
+              display: Participant
+              fields:
+                -
+                  handle: shortName
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Short Name'
+                    type: text
+                    icon: text
+                    listable: hidden
+          display: Participants
+          type: replicator
+          icon: replicator
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          validate:
+            - required
