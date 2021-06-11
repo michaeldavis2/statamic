@@ -1,0 +1,41 @@
+title: 'Cher Quiz'
+replicator:
+  -
+    text: 'What is Cher''s Real Name?'
+    array:
+      A: 'Cherilyn Sarkisian'
+      B: 'Cherilee Perota'
+      C: 'Cheryln Berodin'
+    correct_answer: A
+    explainer: 'It''s Cherilyn Sarkisian! Despite going by the name Cher for years leading up to the name change in 1978, Cher also went by a few totally different names. When she released her first solo single in 1964, Cher actually used the stage name Bonnie Jo Mason. We bet you''ve never even heard that name.'
+    image:
+      - cher1.jpg
+    type: question_and_answer
+    enabled: true
+  -
+    text: 'In the Film ''Zookeeper'' (2011), which animal does Cher voice?'
+    array:
+      A: 'Mollie the Giraffe'
+      B: 'Janet the Lioness'
+      C: 'Kirsten the Gorilla'
+    correct_answer: B
+    explainer: 'Cher voices Janet the Lioness- queen of the jungle!'
+    image:
+      - zookeeper.jpg
+    type: question_and_answer
+    enabled: true
+  -
+    text: 'What was Cher''s first solo single?'
+    array:
+      A: 'All I Really Want to Do'
+      B: 'Gypsies, Tramps & Thieves'
+      C: 'You Don''t Have to Say you Love Me'
+    correct_answer: A
+    explainer: '"All I Really Want to Do" (1965) was the first single to be released by Cher under that name and was also her first solo hit.'
+    image:
+      - cher2.jpg
+    type: question_and_answer
+    enabled: true
+updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
+updated_at: 1623426465
+blueprint: quiz
