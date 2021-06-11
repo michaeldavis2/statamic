@@ -54,6 +54,19 @@ sections:
                     icon: text
                     instructions: 'Explain the correct answer'
                     listable: hidden
+                -
+                  handle: image
+                  field:
+                    mode: grid
+                    restrict: false
+                    allow_uploads: true
+                    display: Image
+                    type: assets
+                    icon: assets
+                    instructions: 'An image to support the question'
+                    listable: hidden
+                    validate:
+                      - image
           display: Questions
           type: replicator
           icon: replicator
