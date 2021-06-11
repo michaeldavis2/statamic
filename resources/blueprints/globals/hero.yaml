@@ -25,6 +25,17 @@ sections:
           icon: text
           listable: hidden
       -
+        handle: subtitle
+        field:
+          mode: keyed
+          keys:
+            text: null
+            url: null
+          display: Subtitle
+          type: array
+          icon: array
+          listable: hidden
+      -
         handle: text_position
         field:
           options:
@@ -48,17 +59,6 @@ sections:
           display: 'Basket ID'
           type: integer
           icon: integer
-          listable: hidden
-      -
-        handle: subtitle
-        field:
-          mode: keyed
-          keys:
-            text: null
-            url: null
-          display: Subtitle
-          type: array
-          icon: array
           listable: hidden
   deployment:
     display: Deployment
