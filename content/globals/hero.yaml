@@ -7,6 +7,5 @@ data:
     text: 'Follow our coverage of Euro 2020 on Sky Sports >'
     url: 'https://www.skysports.com'
   text_position: right
-  basket_id: 3412312
   stage: false
   production: false
