@@ -16,13 +16,6 @@ sections:
             - required
             - image
       -
-        handle: basket_id
-        field:
-          display: 'Basket ID'
-          type: integer
-          icon: integer
-          listable: hidden
-      -
         handle: title
         field:
           input_type: text
@@ -30,6 +23,13 @@ sections:
           display: Title
           type: text
           icon: text
+          listable: hidden
+      -
+        handle: subtitle_link
+        field:
+          display: 'Subtitle Link'
+          type: link
+          icon: link
           listable: hidden
       -
         handle: text_position
@@ -50,11 +50,11 @@ sections:
           instructions: 'Choose where you would like the text to display'
           listable: hidden
       -
-        handle: subtitle_link
+        handle: basket_id
         field:
-          display: 'Subtitle Link'
-          type: link
-          icon: link
+          display: 'Basket ID'
+          type: integer
+          icon: integer
           listable: hidden
   deployment:
     display: Deployment
