@@ -58,6 +58,8 @@ replicator:
     type: question_and_answer
     enabled: true
     explainer: 'It''s growing on Joe'
+    image:
+      - robyn.jpg
   -
     text: 'Henry the Eighth introduced which tax in England in 1535?'
     array:
@@ -68,6 +70,8 @@ replicator:
     type: question_and_answer
     enabled: true
     explainer: 'Clean shaven FTW'
+    image:
+      - henryviii.jpg
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1623421127
+updated_at: 1623425719
 blueprint: quiz
