@@ -1,7 +1,10 @@
 title: 'Hero Banner'
 data:
-  hero_banner:
-    - hero.png
+  banner_background:
+    - EURO_DRAW_1.png
   basket_id: 3412312
+  title: 'Euro 2020'
+  subtitle: 'Follow our coverage of Euro 2020 on Sky Sports >'
+  text_position: right
   stage: false
   production: false
