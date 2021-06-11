@@ -54,6 +54,13 @@ sections:
           instructions: 'Choose where you would like the text to display'
           listable: hidden
       -
+        handle: open_in_new_tab
+        field:
+          display: 'Open in New Tab'
+          type: toggle
+          icon: toggle
+          listable: hidden
+      -
         handle: basket_id
         field:
           display: 'Basket ID'
