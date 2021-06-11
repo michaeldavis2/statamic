@@ -10,6 +10,8 @@ replicator:
     type: question_and_answer
     enabled: true
     explainer: 'Charmander has fire on his tail!'
+    image:
+      - pokemon.jpg
   -
     text: 'Who Lives in Paris?'
     array:
@@ -20,6 +22,8 @@ replicator:
     type: question_and_answer
     enabled: true
     explainer: 'Bonjour Emily mi amor'
+    image:
+      - paris.jpg
   -
     text: 'Which food does Mo like?'
     array:
@@ -61,5 +65,5 @@ replicator:
     enabled: true
     explainer: 'Clean shaven FTW'
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1623419733
+updated_at: 1623421000
 blueprint: quiz
