@@ -33,6 +33,8 @@ sections:
           type: checkboxes
           icon: checkboxes
           listable: hidden
+          options:
+            'true': Enabled
   sidebar:
     display: Sidebar
     fields:
