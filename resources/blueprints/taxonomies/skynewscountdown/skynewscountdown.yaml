@@ -11,11 +11,6 @@ sections:
           validate:
             - required
       -
-        handle: content
-        field:
-          type: markdown
-          localizable: true
-      -
         handle: countdownvalue
         field:
           mode: single
@@ -29,6 +24,14 @@ sections:
           display: countdownvalue
           type: date
           icon: date
+          listable: hidden
+      -
+        handle: home_page
+        field:
+          inline: false
+          display: 'Home Page'
+          type: checkboxes
+          icon: checkboxes
           listable: hidden
   sidebar:
     display: Sidebar
