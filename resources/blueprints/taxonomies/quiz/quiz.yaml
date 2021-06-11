@@ -44,6 +44,16 @@ sections:
                     type: text
                     icon: text
                     listable: hidden
+                -
+                  handle: explainer
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Explainer
+                    type: text
+                    icon: text
+                    instructions: 'Explain the correct answer'
+                    listable: hidden
           display: Questions
           type: replicator
           icon: replicator
