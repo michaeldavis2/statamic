@@ -32,15 +32,6 @@ sections:
           icon: text
           listable: hidden
       -
-        handle: subtitle
-        field:
-          input_type: text
-          antlers: false
-          display: Subtitle
-          type: text
-          icon: text
-          listable: hidden
-      -
         handle: text_position
         field:
           options:
@@ -57,6 +48,13 @@ sections:
           type: select
           icon: select
           instructions: 'Choose where you would like the text to display'
+          listable: hidden
+      -
+        handle: subtitle_link
+        field:
+          display: 'Subtitle Link'
+          type: link
+          icon: link
           listable: hidden
   deployment:
     display: Deployment
