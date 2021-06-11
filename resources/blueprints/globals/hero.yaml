@@ -3,21 +3,42 @@ sections:
     display: Main
     fields:
       -
-        handle: hero_banner
+        handle: banner_background
         field:
           mode: grid
           restrict: false
           allow_uploads: true
-          display: 'Hero banner'
+          display: 'Banner Background'
           type: assets
           icon: assets
           listable: hidden
+          validate:
+            - required
+            - image
       -
         handle: basket_id
         field:
-          display: 'basket Id'
+          display: 'Basket ID'
           type: integer
           icon: integer
+          listable: hidden
+      -
+        handle: title
+        field:
+          input_type: text
+          antlers: false
+          display: Title
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: subtitle
+        field:
+          input_type: text
+          antlers: false
+          display: Subtitle
+          type: text
+          icon: text
           listable: hidden
   deployment:
     display: Deployment
