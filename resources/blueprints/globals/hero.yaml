@@ -40,6 +40,24 @@ sections:
           type: text
           icon: text
           listable: hidden
+      -
+        handle: text_position
+        field:
+          options:
+            left: Left
+            center: Center
+            right: Right
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: 'Text Position'
+          type: select
+          icon: select
+          instructions: 'Choose where you would like the text to display'
+          listable: hidden
   deployment:
     display: Deployment
     fields:
