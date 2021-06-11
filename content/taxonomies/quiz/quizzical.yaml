@@ -29,7 +29,7 @@ replicator:
     correct_answer: C
     type: question_and_answer
     enabled: true
-    explainer: 'Who needs chicken when you got beef'
+    explainer: '"I like beef now"'
   -
     text: 'Is Elliot Welsh?'
     array:
@@ -39,6 +39,7 @@ replicator:
     correct_answer: A
     type: question_and_answer
     enabled: true
+    explainer: 'Bloody brilliant'
   -
     text: 'Is Myke secretly Swedish Superstar Robyn?'
     array:
@@ -48,6 +49,7 @@ replicator:
     correct_answer: A
     type: question_and_answer
     enabled: true
+    explainer: 'It''s growing on Joe'
   -
     text: 'Henry the Eighth introduced which tax in England in 1535?'
     array:
@@ -57,6 +59,7 @@ replicator:
     correct_answer: C
     type: question_and_answer
     enabled: true
+    explainer: 'Clean shaven FTW'
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1623419685
+updated_at: 1623419733
 blueprint: quiz
