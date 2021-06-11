@@ -25,11 +25,15 @@ sections:
           icon: text
           listable: hidden
       -
-        handle: subtitle_link
+        handle: subtitle
         field:
-          display: 'Subtitle Link'
-          type: link
-          icon: link
+          mode: keyed
+          keys:
+            text: Text
+            url: 'Link URL'
+          display: Subtitle
+          type: array
+          icon: array
           listable: hidden
       -
         handle: text_position
