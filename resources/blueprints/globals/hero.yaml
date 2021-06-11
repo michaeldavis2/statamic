@@ -25,13 +25,13 @@ sections:
           icon: text
           listable: hidden
       -
-        handle: subtitle
+        handle: subtitle_with_link
         field:
           mode: keyed
           keys:
             text: null
             url: null
-          display: Subtitle
+          display: 'Subtitle with Link'
           type: array
           icon: array
           listable: hidden
