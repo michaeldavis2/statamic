@@ -1,0 +1,52 @@
+title: 'England First XI'
+subtitle: 'Spain 0 - 0 England (pen 2 - 4)'
+description: 'EURO 1996 Quarter-finals, 22 June 1996'
+formation: '4411'
+participants:
+  -
+    shortName: Seaman
+    type: participant
+    enabled: true
+  -
+    shortName: Neville
+    type: participant
+    enabled: true
+  -
+    shortName: Adams
+    type: participant
+    enabled: true
+  -
+    shortName: Southgate
+    type: participant
+    enabled: true
+  -
+    shortName: Pearce
+    type: participant
+    enabled: true
+  -
+    shortName: McManaman
+    type: participant
+    enabled: true
+  -
+    shortName: Platt
+    type: participant
+    enabled: true
+  -
+    shortName: Gascoigne
+    type: participant
+    enabled: true
+  -
+    shortName: Anderton
+    type: participant
+    enabled: true
+  -
+    shortName: Sheringham
+    type: participant
+    enabled: true
+  -
+    shortName: Shearer
+    type: participant
+    enabled: true
+updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
+updated_at: 1623402717
+blueprint: missing_names
