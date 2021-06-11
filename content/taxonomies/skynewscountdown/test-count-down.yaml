@@ -1,5 +1,7 @@
 title: 'Test count down'
 countdownvalue: '2021-07-30 16:35'
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1623424095
+updated_at: 1623424131
 blueprint: skynewscountdown
+home_page:
+  - 'true'
