@@ -6,7 +6,7 @@ data:
   subtitle_with_link:
     text: 'Follow our coverage of Euro 2020 on Sky Sports'
     url: 'https://www.skysports.com'
-  text_position: right
+  text_position: left
   open_in_new_tab: true
   stage: false
   production: false
