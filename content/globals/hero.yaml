@@ -1,7 +1,7 @@
 title: 'Hero Banner'
 data:
   banner_background:
-    - EURO_DRAW_1.png
+    - cher1.jpg
   title: 'Euro 2020 >'
   subtitle_with_link:
     text: 'Follow our coverage of Euro 2020 on Sky Sports'
