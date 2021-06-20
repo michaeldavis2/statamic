@@ -1,0 +1,77 @@
+title: Quizzical
+replicator:
+  -
+    text: 'What is the best original starter Pokemon (red/blue)?'
+    array:
+      A: Charmander
+      B: Bulbasaur
+      C: Squirtle
+    correct_answer: A
+    type: question_and_answer
+    enabled: true
+    explainer: 'Charmander has fire on his tail!'
+    image:
+      - pokemon.jpg
+  -
+    text: 'Who Lives in Paris?'
+    array:
+      A: Emily
+      B: Norbert
+      C: 'Kristen Stewart'
+    correct_answer: A
+    type: question_and_answer
+    enabled: true
+    explainer: 'Bonjour Emily mi amor'
+    image:
+      - paris.jpg
+  -
+    text: 'Which food does Mo like?'
+    array:
+      A: KFC
+      B: Nandos
+      C: 'Burger King'
+    correct_answer: C
+    type: question_and_answer
+    enabled: true
+    explainer: '"I like beef now"'
+    image:
+      - food.png
+  -
+    text: 'Is Elliot Welsh?'
+    array:
+      A: 'Yes'
+      B: 'Yes'
+      C: 'Yes'
+    correct_answer: A
+    type: question_and_answer
+    enabled: true
+    explainer: 'Bloody brilliant'
+    image:
+      - elliot.png
+  -
+    text: 'Is Myke secretly Swedish Superstar Robyn?'
+    array:
+      A: 'Yes'
+      B: Probably
+      C: 'Hope so'
+    correct_answer: A
+    type: question_and_answer
+    enabled: true
+    explainer: 'It''s growing on Joe'
+    image:
+      - robyn.jpg
+  -
+    text: 'Henry the Eighth introduced which tax in England in 1535?'
+    array:
+      A: 'Window Tax'
+      B: 'Monday Tax'
+      C: 'Beard Tax'
+    correct_answer: C
+    type: question_and_answer
+    enabled: true
+    explainer: 'Clean shaven FTW'
+    image:
+      - henryviii.jpg
+updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
+updated_at: 1623425719
+blueprint: quiz

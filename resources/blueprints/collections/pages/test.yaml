@@ -2,4 +2,36 @@ title: test
 sections:
   main:
     display: Main
-    fields: {  }
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+  sidebar:
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - 'unique_entry_value:{collection},{id},{site}'
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
+      -
+        handle: quiz
+        field:
+          type: terms
+          taxonomies:
+            - quiz
+          display: Quiz
+          mode: select
