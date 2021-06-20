@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Statamic\Facades\Taxonomy;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::middleware('auth:api')->get('/user', function (Request $request) {
-//     return $request->user();
-// });
+ Route::get('/taxonomies/all', function (Request $request) {
+
+     $data = [];
+     foreach (Taxonomy::all() as $taxonomy) {
+         $data[$taxonomy->handle()] = $taxonomy->title();
+     }
+
+     return json_encode(['data' => $data]);
+ });
