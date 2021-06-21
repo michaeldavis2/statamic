@@ -1,6 +1,6 @@
 title: Ads
 data:
-  hide_ads_on_sky_news: true
+  hide_ads_on_sky_news: false
   hide_outbrain: false
   ads_txt: |-
     # ads.txt - Authorised Digital Sellers
