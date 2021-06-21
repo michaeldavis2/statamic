@@ -1,5 +1,5 @@
 title: 'England First XI'
-subtitle: 'Spain 0 - 0 England (pen 2 - 4)'
+subtitle: 'England 2 - 0 Scotland'
 description: 'EURO 1996 Quarter-finals, 22 June 1996'
 formation: '4411'
 participants:
@@ -24,11 +24,11 @@ participants:
     type: participant
     enabled: true
   -
-    shortName: McManaman
+    shortName: Platt
     type: participant
     enabled: true
   -
-    shortName: Platt
+    shortName: McManaman
     type: participant
     enabled: true
   -
@@ -48,9 +48,9 @@ participants:
     type: participant
     enabled: true
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1624261182
+updated_at: 1624304660
 blueprint: missing_names
 home_team_badge:
-  - 345.png
+  - 10367.png
 away_team_badge:
-  - 413.png
+  - Scotland_national_football_team_logo_2014.svg.png
