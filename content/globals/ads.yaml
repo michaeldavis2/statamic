@@ -1,6 +1,6 @@
 title: Ads
 data:
-  hide_ads_on_sky_news: false
+  hide_ads_on_sky_news: true
   hide_outbrain: false
   ads_txt: |-
     # ads.txt - Authorised Digital Sellers
@@ -186,5 +186,3 @@ data:
     rubiconproject.com, 16414, RESELLER, 0bfd66d529a55807 #33Across #hb #tag
     openx.com, 537120563, RESELLER, 6a698e2ec38604c6 #33Across #hb #tag
     indexexchange.com, 191973, RESELLER, 50b1c356f2c5c8fc #33Across #hb #tag #viewable
-  stage: false
-  production: false
