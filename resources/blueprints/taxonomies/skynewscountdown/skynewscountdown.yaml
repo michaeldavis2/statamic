@@ -54,6 +54,13 @@ sections:
           type: text
           icon: text
           listable: hidden
+      -
+        handle: show-seconds
+        field:
+          display: 'Show Seconds'
+          type: toggle
+          icon: toggle
+          listable: hidden
   deployment:
     display: Deployment
     fields:
