@@ -48,5 +48,9 @@ participants:
     type: participant
     enabled: true
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1623402717
+updated_at: 1624261182
 blueprint: missing_names
+home_team_badge:
+  - 345.png
+away_team_badge:
+  - 413.png
