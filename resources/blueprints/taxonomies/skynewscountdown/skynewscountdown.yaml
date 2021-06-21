@@ -35,13 +35,15 @@ sections:
           listable: hidden
           options:
             'true': Enabled
+  new_section:
+    display: 'New Section'
+    fields:
+      -
+        import: deployment
   sidebar:
-    display: Sidebar
     fields:
       -
         handle: slug
         field:
           type: slug
           required: true
-          validate:
-            - required
