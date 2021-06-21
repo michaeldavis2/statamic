@@ -1,7 +1,7 @@
 title: 'Tokyo Olympics 2021 🏃‍♀️🤺🏋️‍♂️'
 countdownvalue: '2021-07-23 22:00'
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1624308435
+updated_at: 1624308766
 blueprint: skynewscountdown
 home_page:
   - 'true'
@@ -10,3 +10,4 @@ production: true
 background:
   - olympics-1624308426.png
 link: 'https://skysports.com'
+show-seconds: true
