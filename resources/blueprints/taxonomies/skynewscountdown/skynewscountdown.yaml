@@ -45,6 +45,15 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+      -
+        handle: link
+        field:
+          input_type: text
+          antlers: false
+          display: Link
+          type: text
+          icon: text
+          listable: hidden
   deployment:
     display: Deployment
     fields:
@@ -56,9 +65,12 @@ sections:
           icon: toggle
           listable: hidden
   sidebar:
+    display: Sidebar
     fields:
       -
         handle: slug
         field:
           type: slug
           required: true
+          validate:
+            - required
