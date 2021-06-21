@@ -24,8 +24,3 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
-  deployment:
-    display: Deployment
-    fields:
-      -
-        import: deployment
