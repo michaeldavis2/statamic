@@ -9,4 +9,4 @@ data:
   text_position: left
   open_in_new_tab: true
   stage: false
-  production: false
+  production: true
