@@ -46,6 +46,7 @@ sections:
           icon: toggle
           listable: hidden
   sidebar:
+    display: Sidebar
     fields:
       -
         handle: slug
