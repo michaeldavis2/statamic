@@ -35,11 +35,16 @@ sections:
           listable: hidden
           options:
             'true': Enabled
-  new_section:
-    display: 'New Section'
+  deployment:
+    display: Deployment
     fields:
       -
-        import: deployment
+        handle: production
+        field:
+          display: Production
+          type: toggle
+          icon: toggle
+          listable: hidden
   sidebar:
     fields:
       -
