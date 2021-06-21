@@ -24,7 +24,7 @@ participants:
     type: participant
     enabled: true
   -
-    shortName: Platt
+    shortName: Ince
     type: participant
     enabled: true
   -
@@ -48,7 +48,7 @@ participants:
     type: participant
     enabled: true
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1624304660
+updated_at: 1624304711
 blueprint: missing_names
 home_team_badge:
   - 10367.png
