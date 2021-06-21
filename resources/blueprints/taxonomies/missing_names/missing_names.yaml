@@ -11,11 +11,6 @@ sections:
           validate:
             - required
       -
-        handle: content
-        field:
-          type: markdown
-          localizable: true
-      -
         handle: subtitle
         field:
           input_type: text
@@ -73,6 +68,26 @@ sections:
           display: Participants
           type: replicator
           icon: replicator
+          listable: hidden
+      -
+        handle: home_team_badge
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: 'Home Team Badge'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: away_team_badge
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: 'Away Team Badge'
+          type: assets
+          icon: assets
           listable: hidden
   sidebar:
     display: Sidebar
