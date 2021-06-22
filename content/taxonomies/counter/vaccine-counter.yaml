@@ -2,7 +2,7 @@ title: 'Vaccine counter'
 number: 100000000
 text: 'Vaccines in UK'
 background:
-  - henryviii.jpg
+  - cher1.jpg
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1624382898
+updated_at: 1624384444
 blueprint: counter
