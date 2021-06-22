@@ -8,20 +8,36 @@ sections:
         field:
           type: text
           required: true
-          validate:
-            - required
       -
-        handle: content
+        handle: number
         field:
-          type: markdown
-          localizable: true
+          display: Number
+          type: integer
+          icon: integer
+          listable: hidden
+      -
+        handle: text
+        field:
+          input_type: text
+          antlers: false
+          display: Text
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: background
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: Background
+          type: assets
+          icon: assets
+          listable: hidden
   sidebar:
-    display: Sidebar
     fields:
       -
         handle: slug
         field:
           type: slug
           required: true
-          validate:
-            - required
