@@ -1,8 +1,8 @@
 title: 'Vaccine counter'
-number: 100000000
-text: 'Vaccines in UK'
+number: 200000000
+text: 'Vaccines in England'
 background:
   - cher1.jpg
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1624441405
+updated_at: 1624441475
 blueprint: counter
