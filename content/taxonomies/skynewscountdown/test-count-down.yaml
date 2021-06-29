@@ -1,14 +1,13 @@
 title: 'Cher World Tour!'
 countdownvalue: '2021-07-01 22:00'
 updated_by: 2ebde1b1-216e-429c-a8c3-f0ec2c607d9d
-updated_at: 1624957117
+updated_at: 1624957144
 blueprint: skynewscountdown
 home_page:
   - 'true'
 stage: false
 production: true
 background:
-  - olympics-1624308426.png
   - cher1.jpg
 link: 'https://skysports.com'
 show-seconds: true
