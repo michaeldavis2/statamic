@@ -8,5 +8,5 @@ data:
     url: 'https://www.skysports.com/euro-2020'
   text_position: left
   open_in_new_tab: true
-  stage: false
-  production: false
+  stage: true
+  production: true
